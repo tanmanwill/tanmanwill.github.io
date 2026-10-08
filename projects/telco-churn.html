@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telco Customer Churn Analysis | Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                Data Analyst Portfolio
+            </a>
+
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <header>
+        <h1>Telco Customer Churn Analysis</h1>
+        <p>SQL | Python | Power BI | Machine Learning</p>
+        <p>Identifying customer retention risks through data.</p>
+    </header>
+
+    <main>
+
+        <!-- Overview -->
+        <section>
+            <h2>Project Overview</h2>
+            <p>
+                This project analyzes 7,043 telecommunications
+                customers to identify factors associated with
+                customer churn and develop a predictive model
+                to help identify at-risk customers.
+            </p>
+            <p>
+                The analysis combines exploratory data analysis,
+                SQL-based segmentation, logistic regression,
+                and interactive Power BI reporting.
+            </p>
+        </section>
+
+        <!-- Dashboard -->
+        <section>
+            <h2>Power BI Dashboard</h2>
+
+            <img
+                src="../images/churn_dashboard.PNG"
+                alt="Customer Churn Power BI Dashboard"
+                class="dashboard-image"
+            >
+        </section>
+
+        <!-- Key Findings -->
+        <section>
+            <h2>Key Findings</h2>
+
+            <ul>
+                <li>
+                    Overall customer churn was approximately
+                    26.5%, with 1,869 customers leaving.
+                </li>
+                <li>
+                    Month-to-month contracts had a churn rate
+                    of approximately 42.7%, substantially
+                    higher than one-year and two-year contracts.
+                </li>
+                <li>
+                    Fiber optic customers had a churn rate
+                    of approximately 41.9%.
+                </li>
+                <li>
+                    Identified a high-risk segment of 589
+                    customers with a 72.3% churn rate.
+                </li>
+                <li>
+                    The logistic regression model achieved
+                    78.42% accuracy and 0.835 ROC-AUC.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Predictive Modeling -->
+        <section>
+            <h2>Predictive Modeling</h2>
+
+            <p>
+                A logistic regression model was developed
+                using customer demographics, service usage,
+                and account characteristics to predict
+                customer churn.
+            </p>
+
+            <p>
+                Model performance was evaluated using
+                accuracy, ROC-AUC, precision, recall,
+                and a confusion matrix.
+            </p>
+
+            <p>
+                Adjusting the classification threshold
+                from 50% to 40% increased recall from
+                approximately 50.8% to 66.6%, allowing
+                the model to identify more customers
+                who were likely to churn.
+            </p>
+        </section>
+
+        <!-- Recommendations -->
+        <section>
+            <h2>Business Recommendations</h2>
+
+            <ul>
+                <li>
+                    Prioritize retention efforts for
+                    month-to-month customers, particularly
+                    those with short tenure.
+                </li>
+                <li>
+                    Investigate the customer experience
+                    of fiber optic subscribers and
+                    customers without technical support.
+                </li>
+                <li>
+                    Use high-risk customer segments
+                    to guide targeted retention campaigns.
+                </li>
+                <li>
+                    Consider classification threshold
+                    adjustments based on the business
+                    trade-off between missed churners
+                    and unnecessary retention outreach.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Repository -->
+        <section>
+            <h2>Project Repository</h2>
+
+            <p>
+                Explore the SQL analysis, Python notebook,
+                predictive modeling, dashboard, and
+                project documentation on GitHub.
+            </p>
+
+            <a
+                href="https://github.com/tanmanwill/Telco-Customer-Churn_Analysis"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Full Project on GitHub &rarr;
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="../index.html#projects">
+            &larr; Back to Portfolio
+        </a>
+    </footer>
+
+</body>
+</html>

@@ -230,3 +230,14 @@ header a {
 header a:hover {
     color: white;
 }
+
+
+/* Project detail page dashboard */
+.dashboard-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    margin-top: 20px;
+}
