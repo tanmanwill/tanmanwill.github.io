@@ -245,3 +245,18 @@ header a:hover {
     margin: 20px auto 0;
 }
 
+
+/* Force dashboard screenshots to fit inside their sections */
+section img.dashboard-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+section {
+    min-width: 0;
+    overflow-wrap: break-word;
+}
