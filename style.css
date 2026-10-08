@@ -236,8 +236,12 @@ header a:hover {
 .dashboard-image {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
+    object-fit: contain;
+    box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid #e2e8f0;
-    margin-top: 20px;
+    margin: 20px auto 0;
 }
+
